@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 
-def calka(x, y):
+def calka(x, y): 
     suma = 0
     for i in range(0, len(x) - 1):
         suma = suma + ((y[i + 1] + y[i]) / 2) * (x[i + 1] - x[i])
