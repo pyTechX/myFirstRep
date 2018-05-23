@@ -61,7 +61,7 @@ line3 = plt.plot(t, s, lw=2)
 C3 = calka_wielomianu_pierwszego_stopnia(t, s)
 plt.ylim(0, 1)
 plt.title("Całka jako pole pod wykresem regresji liniowej = " + str(C3))
-plt.show()
+plt.show() 
 
 print('Różnica związana z niedokładniością liczenia całki metodą przybliżoną wyniosła {0:.8f}'.format(C - C2))
 print('Różnica związana z niedokładniością liczenia całki za pomocą regresji liniowej {0:.8f}'.format(C - C3))
