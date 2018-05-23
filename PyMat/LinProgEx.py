@@ -1,5 +1,5 @@
 from scipy.optimize import linprog 
-
+print "Nowe linijki tratatata"
 #funkcja od której odjelismy juz wartosc P(o P nie zapominamy bo dodajemy je do warunkow)
 f='x[0]*5*30+x[1]*4*50−10*(5*x[0]+10*x[1])'
 #uzyskujemy 100x[0]+100x[1]
